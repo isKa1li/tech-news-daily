@@ -1,116 +1,107 @@
 {
-  "tldr_zh": "馬斯克敗訴OpenAI，Google I/O聚焦AI，頂尖人才跳槽Anthropic，資安事件頻傳。",
-  "tldr_en": "Musk loses OpenAI suit, Google I/O highlights AI, top talent moves to Anthropic, and major cybersecurity incidents occur.",
+  "tldr_zh": "Google I/O 聚焦 AI 創新，蘋果強化 AI 輔助功能，Anthropic 迎來 OpenAI 共同創辦人，全球資安與地緣政治挑戰不斷。",
+  "tldr_en": "Google I/O highlights AI innovations, Apple boosts AI accessibility, Anthropic gains an OpenAI co-founder, while global cybersecurity and geopolitical challenges persist.",
   "items": [
     {
       "category": "ai",
-      "title_zh": "馬斯克控告OpenAI訴訟敗訴，法院裁定提告過晚",
-      "title_en": "Elon Musk Loses Lawsuit Against OpenAI, Court Rules Claims Barred by Statute of Limitations",
-      "summary_zh": "伊隆·馬斯克控告OpenAI及其共同創辦人違反合約的訴訟，陪審團一致裁定馬斯克提告過晚，其主張已超過訴訟時效。此判決對馬斯克造成重大打擊，他已表示將提出上訴。",
-      "summary_en": "Elon Musk's lawsuit against OpenAI and its co-founders for breach of contract was unanimously dismissed by a jury, ruling that Musk filed the suit too late and his claims are barred by the statute of limitations. This verdict is a significant blow to Musk, who has announced plans to appeal.",
-      "source": "MIT Tech Review - AI",
-      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/"
-    },
-    {
-      "category": "ai",
-      "title_zh": "Google I/O 2026登場，Gemini與AI代理功能成焦點",
-      "title_en": "Google I/O 2026 Kicks Off, Gemini and AI Agent Features Take Center Stage",
-      "summary_zh": "Google年度開發者大會I/O 2026今日開幕，預計將重點展示其AI模型Gemini的新版本及更多代理式AI功能。這場盛會將揭示Google在基礎模型競賽中如何強化其AI實力。",
-      "summary_en": "Google's annual developer conference, I/O 2026, commenced today, with expectations for new versions of its Gemini AI models and more agentic AI features to be prominently featured. The event is set to highlight Google's efforts to strengthen its position in the foundational model race.",
+      "title_zh": "Google I/O 2026 大會登場，聚焦 Gemini 與 AI 代理功能",
+      "title_en": "Google I/O 2026 Kicks Off, Focusing on Gemini and AI Agent Capabilities",
+      "summary_zh": "Google 年度開發者大會 I/O 2026 今日開幕，預計將再次以 Gemini 模型為核心，展示新版 AI 模型與更多具代理能力的 AI 功能。這場盛會將揭示 Google 在基礎模型競賽中的最新進展，並可能推出多項 AI 搜尋與智慧助理創新。",
+      "summary_en": "Google's annual developer conference, I/O 2026, commences today, with expectations centered on the Gemini model, new AI models, and more agentic AI features. The event is set to reveal Google's latest advancements in the foundation model race, potentially introducing innovations in AI search and intelligent assistants.",
       "source": "The Verge",
       "url": "https://www.theverge.com/tech/932454/google-io-2026-news-announcements"
     },
     {
       "category": "ai",
-      "title_zh": "OpenAI共同創辦人Andrej Karpathy轉投Anthropic",
+      "title_zh": "OpenAI 共同創辦人 Karpathy 轉投 Anthropic 預訓練團隊",
       "title_en": "OpenAI Co-founder Andrej Karpathy Joins Anthropic's Pre-training Team",
-      "summary_zh": "OpenAI共同創辦人之一的知名AI研究員Andrej Karpathy已加入Anthropic的預訓練團隊，負責大型模型的核心知識與能力訓練。此舉被視為頂尖AI人才在主要AI公司間流動的重要動向。",
-      "summary_en": "Andrej Karpathy, a renowned AI researcher and co-founder of OpenAI, has joined Anthropic's pre-training team, which is responsible for training the core knowledge and capabilities of large-scale models. This move is seen as a significant talent shift among leading AI companies.",
+      "summary_zh": "OpenAI 共同創辦人 Andrej Karpathy 已加入競爭對手 Anthropic 的預訓練團隊，負責 Claude 模型的核心知識與能力訓練。此舉是 AI 領域的重大人才流動，凸顯了 Anthropic 在大型模型開發上的野心與資源投入。",
+      "summary_en": "OpenAI co-founder Andrej Karpathy has joined rival Anthropic's pre-training team, where he will be responsible for developing the core knowledge and capabilities of the Claude model. This significant talent move in the AI industry underscores Anthropic's ambition and investment in large model development.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"
     },
     {
-      "category": "tech",
-      "title_zh": "Meta與Anduril合作開發軍用智慧眼鏡，支援無人機打擊",
-      "title_en": "Meta and Anduril Collaborate on Military Smart Glasses for Drone Strikes",
-      "summary_zh": "國防科技公司Anduril與Meta合作，正在為軍方原型開發一款擴增實境頭戴裝置，其願景是透過眼球追蹤和語音指令來指揮無人機打擊。這項技術旨在提升戰場上的態勢感知與作戰效率。",
-      "summary_en": "Defense tech company Anduril, in collaboration with Meta, is prototyping an augmented reality headset for the military, with a vision for ordering drone strikes via eye-tracking and voice commands. This technology aims to enhance situational awareness and operational efficiency on the battlefield.",
-      "source": "MIT Tech Review - AI",
-      "url": "https://www.technologyreview.com/2026/05/18/1137412/inside-anduril-and-metas-quest-to-make-smart-glasses-for-warfare/"
+      "category": "ai",
+      "title_zh": "蘋果強化輔助功能，整合 AI 處理提升 Vision Pro 等體驗",
+      "title_en": "Apple Enhances Accessibility Features with AI Processing for Vision Pro and More",
+      "summary_zh": "蘋果在其年度輔助功能更新中，為 iPhone、Mac 和 Vision Pro 帶來多項新功能，特別強調裝置端 AI 處理的應用。這些 AI 驅動的改進將提升 VoiceOver、放大鏡、語音控制和輔助閱讀器等功能，甚至讓 Vision Pro 能透過眼球追蹤控制輪椅。",
+      "summary_en": "Apple's annual accessibility update introduces new features for iPhone, Mac, and Vision Pro, with a strong emphasis on on-device AI processing. These AI-powered enhancements will improve functions like VoiceOver, Magnifier, Voice Control, and Accessibility Reader, and even enable Vision Pro to control a compatible wheelchair via eye-tracking.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/933420/apple-iphone-mac-vision-pro-accessibility-2026-apple-intelligence"
     },
     {
       "category": "ai",
-      "title_zh": "Cursor發布Composer 2.5新模型，強化程式開發代理表現",
-      "title_en": "Cursor Releases New Composer 2.5 Model, Enhancing Code Development Agent Performance",
-      "summary_zh": "程式開發代理模型Cursor推出Composer 2.5更新，顯著改善了長時間任務處理、複雜指令遵循與協作開發表現。新模型讓AI在多步驟程式開發中更能維持任務進度，提升開發效率。",
-      "summary_en": "Cursor has released Composer 2.5, an updated AI agent model for code development, significantly improving its performance in handling long-duration tasks, following complex instructions, and collaborative development. The new model helps AI maintain task progress in multi-step programming, boosting development efficiency.",
+      "title_zh": "Cursor 釋出 Composer 2.5 新模型，改善程式開發表現",
+      "title_en": "Cursor Releases New Composer 2.5 Model, Enhancing Code Development",
+      "summary_zh": "程式開發代理模型 Cursor Composer 2.5 已在 IDE Cursor 中開放使用，新版模型在長時間任務處理、複雜指令遵循與協作互動方面有顯著提升。這使得模型在多步驟程式開發工作中能更好地維持任務進度，而不僅限於單次回答的優化。",
+      "summary_en": "The code development agent model, Cursor Composer 2.5, is now available in the Cursor IDE, offering significant improvements in handling long-duration tasks, following complex instructions, and collaborative interactions. This enhancement allows the model to better maintain task progress in multi-step programming workflows, beyond just optimizing single responses.",
       "source": "iThome",
       "url": "https://www.ithome.com.tw/news/175941"
     },
     {
-      "category": "tech",
-      "title_zh": "AI輔助漏洞發掘影響浮現，Chrome漏洞揭露量激增563%",
-      "title_en": "AI-Assisted Vulnerability Discovery Emerges, Chrome CVE Disclosures Surge 563%",
-      "summary_zh": "漏洞情資業者VulnCheck分析指出，2026年以來多家軟體供應商的CVE揭露數量顯著增加，其中Google Chrome年增563.2%。這波變化被認為與AI輔助漏洞發掘工具的成熟趨勢相符，顯示AI正改變資安領域。",
-      "summary_en": "Vulnerability intelligence firm VulnCheck reports a significant increase in CVE disclosures from multiple software vendors since 2026, with Google Chrome seeing a 563.2% year-over-year surge. This trend is attributed to the maturing of AI-assisted vulnerability discovery tools, indicating AI's growing impact on cybersecurity.",
-      "source": "iThome",
-      "url": "https://www.ithome.com.tw/news/175936"
-    },
-    {
       "category": "ai",
-      "title_zh": "Redis推出Iris情境引擎，強化AI代理即時資料整合",
-      "title_en": "Redis Launches Iris Context Engine, Enhancing Real-time Data Integration for AI Agents",
-      "summary_zh": "即時資料平臺業者Redis發布AI代理情境與記憶解決方案Redis Iris，作為代理與企業資料間的情境引擎。Iris讓AI代理在執行任務時能取得即時且可用的資料，解決傳統資料整合的痛點。",
-      "summary_en": "Real-time data platform provider Redis has launched Redis Iris, a context and memory solution for AI agents, acting as a context engine between agents and enterprise data. Iris enables AI agents to access real-time and usable data during task execution, addressing traditional data integration challenges.",
+      "title_zh": "Redis 推出 AI 代理情境引擎 Iris，強化即時資料應用",
+      "title_en": "Redis Launches Iris AI Agent Context Engine, Boosting Real-time Data Applications",
+      "summary_zh": "即時資料平臺業者 Redis 推出專為 AI 代理設計的情境與記憶解決方案 Redis Iris，作為代理與企業資料之間的情境引擎。Iris 旨在讓 AI 代理在執行任務時能取得即時且可用的資料，解決傳統上依賴靜態文件或零散整合的痛點。",
+      "summary_en": "Real-time data platform provider Redis has introduced Redis Iris, a context and memory solution for AI agents, acting as a context engine between agents and enterprise data. Iris aims to provide AI agents with real-time and actionable data during task execution, addressing the limitations of relying on static documents or fragmented integrations.",
       "source": "iThome",
       "url": "https://www.ithome.com.tw/news/175934"
     },
     {
       "category": "tech",
-      "title_zh": "蘋果強化輔助使用功能，導入AI處理支援Vision Pro",
-      "title_en": "Apple Enhances Accessibility Features with AI Processing, Supporting Vision Pro",
-      "summary_zh": "蘋果年度輔助使用功能更新，為iPhone、Mac及Vision Pro帶來多項新功能，重點在於利用裝置內建AI處理。這些AI驅動的功能將提升VoiceOver、放大鏡、語音控制等工具的效能，讓更多用戶受益。",
-      "summary_en": "Apple's annual accessibility feature update introduces new additions for iPhone, Mac, and especially Vision Pro, with a focus on leveraging on-device AI processing. These AI-powered features will enhance tools like VoiceOver, Magnifier, and Voice Control, benefiting a wider range of users.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/933420/apple-iphone-mac-vision-pro-accessibility-2026-apple-intelligence"
-    },
-    {
-      "category": "world",
-      "title_zh": "美國性別深偽影像打擊法規生效，專家憂審查風險",
-      "title_en": "US Deepfake Crackdown Law Takes Full Effect, Experts Warn of Censorship Risks",
-      "summary_zh": "美國一項要求社群網路迅速移除性別深偽影像及其他非自願性親密圖像的法律已全面生效。然而，專家警告此政策對受害者幫助有限，甚至可能助長網路審查。",
-      "summary_en": "A US law requiring social networks to promptly remove sexual deepfakes and other nonconsensual intimate imagery is now fully in force. However, experts warn that the policy may offer little help to victims and could, at worst, facilitate online censorship.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/policy/933512/take-it-down-act-notice-removal-social-media-deepfake"
-    },
-    {
-      "category": "tech",
-      "title_zh": "大規模供應鏈攻擊，數十個開源套件遭駭客入侵",
-      "title_en": "Dozens of Popular Open Source Packages Compromised in Supply Chain Attack",
-      "summary_zh": "一場名為「Mini Shai-Hulud」的大規模供應鏈攻擊，已導致數十個熱門開源套件遭駭客入侵。這波攻擊影響了使用這些套件的開發者和公司，凸顯開源軟體供應鏈的資安風險。",
-      "summary_en": "Dozens of popular open-source packages have been compromised by hackers in an ongoing supply chain attack known as \"Mini Shai-Hulud.\" This campaign affects developers and companies using these packages, highlighting the security risks within the open-source software supply chain.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/hackers-have-compromised-dozens-of-popular-open-source-packages-in-an-ongoing-supply-chain-attack/"
-    },
-    {
-      "category": "tech",
-      "title_zh": "美國網路安全局CISA外洩大量密碼與雲端金鑰",
-      "title_en": "US Cyber Agency CISA Exposed Passwords and Cloud Keys to the Open Web",
-      "summary_zh": "根據獨立記者報告，美國聯邦網路安全機構CISA將包含純文字密碼和雲端金鑰的試算表上傳至公共GitHub儲存庫，導致大量敏感資訊外洩。這起事件凸顯了即使是資安機構也可能面臨的內部風險。",
-      "summary_en": "A report by an independent journalist revealed that the US federal cybersecurity agency CISA uploaded a spreadsheet containing plaintext passwords and cloud keys to a public GitHub repository, exposing a large amount of sensitive information. This incident highlights the internal risks even cybersecurity agencies can face.",
+      "title_zh": "美網路安全局 CISA 驚傳外洩大量密碼與雲端金鑰",
+      "title_en": "US Cyber Agency CISA Reportedly Exposed Passwords and Cloud Keys",
+      "summary_zh": "美國聯邦網路安全機構 CISA 被獨立記者揭露，將明文密碼和雲端金鑰上傳至公開的 GitHub 儲存庫，導致大量敏感資訊外洩。這起事件凸顯了即使是負責國家網路安全的機構，也可能面臨嚴重的資安管理疏失。",
+      "summary_en": "The U.S. federal cybersecurity agency CISA was reported by an independent journalist to have uploaded plaintext passwords and cloud keys to a public GitHub repository, leading to a significant leak of sensitive information. This incident highlights that even agencies responsible for national cybersecurity can face severe security management oversights.",
       "source": "TechCrunch",
       "url": "https://techcrunch.com/2026/05/19/us-cyber-agency-cisa-exposed-reams-of-passwords-and-cloud-keys-to-the-open-web/"
     },
     {
+      "category": "tech",
+      "title_zh": "美國深度偽造法案全面生效，專家憂心言論審查",
+      "title_en": "America's Deepfakes Crackdown Fully Enforced, Experts Warn of Censorship",
+      "summary_zh": "美國一項要求社群網路迅速移除性深度偽造和其他非自願圖像的法律已全面生效，但專家警告，這項政策可能對受害者幫助不大，甚至可能助長網路審查。該法案旨在打擊非自願的私密圖像，但其執行細節引發了對言論自由的擔憂。",
+      "summary_en": "A U.S. law requiring social networks to swiftly remove sexual deepfakes and other nonconsensual imagery is now fully in force, but experts warn the policy may do little to help victims and could even facilitate online censorship. While intended to combat nonconsensual intimate imagery, its implementation details raise concerns about free speech.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/policy/933518/take-it-down-act-notice-removal-social-media-deepfake"
+    },
+    {
+      "category": "tech",
+      "title_zh": "伊朗要求科技巨頭支付荷姆茲海峽海底電纜費用",
+      "title_en": "Iran Demands Big Tech Pay Fees for Undersea Internet Cables in Strait of Hormuz",
+      "summary_zh": "伊朗聲稱對荷姆茲海峽的海底網路電纜擁有管轄權，要求大型科技公司支付費用，此舉迫使美國科技公司轉向陸路光纖方案。這項要求加劇了地緣政治緊張，並可能影響全球網路基礎設施的穩定性與成本。",
+      "summary_en": "Iran is demanding that major tech companies pay fees for undersea internet cables passing through the Strait of Hormuz, asserting jurisdiction over the critical chokepoint. This move escalates geopolitical tensions and could compel U.S. tech companies to reroute to overland fiber, potentially impacting global internet infrastructure stability and costs.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/05/iran-demands-big-tech-pay-fees-for-undersea-internet-cables-in-strait-of-hormuz/"
+    },
+    {
       "category": "world",
-      "title_zh": "剛果伊波拉疫情擴散，世衛組織憂心規模與速度",
-      "title_en": "Congo Reports More Ebola Cases, WHO Expresses Concern Over Outbreak's Scale and Speed",
-      "summary_zh": "剛果民主共和國持續報告更多伊波拉病例，世界衛生組織對疫情的規模和傳播速度表示擔憂。官員警告，這次致命病毒的爆發可能持續相當長時間，並正評估潛在的疫苗和療法。",
-      "summary_en": "The Democratic Republic of Congo continues to report more Ebola cases, with the World Health Organization expressing concern over the outbreak's scale and speed. Officials warn that this deadly virus outbreak could persist for a considerable time and are evaluating potential vaccines and treatments.",
+      "title_zh": "世衛組織憂心伊波拉疫情擴散加速，剛果報告更多病例",
+      "title_en": "WHO Concerned as Ebola Outbreak Spreads Faster, More Cases Reported in Congo",
+      "summary_zh": "世界衛生組織（WHO）對中非地區伊波拉疫情的規模和速度表示擔憂，警告疫情可能比最初預期傳播得更快。剛果已報告更多病例，顯示疫情的嚴峻性，促使 WHO 宣布進入緊急狀態，並呼籲國際社會加強應對措施。",
+      "summary_en": "The World Health Organization (WHO) has expressed concern over the scale and speed of the Ebola outbreak in Central Africa, warning it may be spreading faster than initially thought. More cases have been reported in Congo, highlighting the severity of the epidemic, prompting the WHO to declare an emergency and call for stronger international response efforts.",
       "source": "AP Top News",
       "url": "https://apnews.com/article/congo-ebola-deadly-virus-bundibugyo-health-emergency-3c97cacf44e007127df5739199f32517"
+    },
+    {
+      "category": "world",
+      "title_zh": "歐盟通過鋼品關稅大漲至50%，防堵中國廉價傾銷",
+      "title_en": "EU Approves 50% Steel Tariff Hike to Counter Cheap Chinese Imports",
+      "summary_zh": "歐洲議會以壓倒性票數通過一項提案，將進口鋼品關稅倍增至 50%，並大幅削減免關稅配額 47%，以保護歐洲鋼鐵業免受中國廉價出口品的衝擊。此舉旨在應對中國產能過剩對全球市場的影響，並維護歐洲產業的公平競爭環境。",
+      "summary_en": "The European Parliament overwhelmingly approved a proposal to double import tariffs on steel products to 50% and slash duty-free quotas by 47%, aiming to shield the struggling European steel industry from cheap Chinese exports. This measure seeks to address the impact of China's overcapacity on global markets and maintain a level playing field for European industries.",
+      "source": "中央社國際",
+      "url": "https://www.cna.com.tw/news/aopl/202605190395.aspx"
+    },
+    {
+      "category": "world",
+      "title_zh": "路透：俄軍人在中國秘密受訓後投入烏克蘭戰場",
+      "title_en": "Reuters: Russian Soldiers Secretly Trained in China Deployed to Ukraine",
+      "summary_zh": "根據歐洲情報機構及路透社查閱的文件顯示，中國武裝部隊去年底在境內秘密訓練約 200 名俄羅斯軍事人員，其中部分人員已返回烏克蘭作戰。這項消息揭示了中俄之間更深層的軍事合作，可能對烏克蘭戰爭局勢產生影響。",
+      "summary_en": "According to European intelligence agencies and documents reviewed by Reuters, the Chinese armed forces secretly trained approximately 200 Russian military personnel in China late last year, with some already deployed to fight in Ukraine. This revelation points to deeper military cooperation between China and Russia, potentially impacting the situation in the Ukraine war.",
+      "source": "中央社國際",
+      "url": "https://www.cna.com.tw/news/aopl/202605190394.aspx"
     }
   ],
   "date": "2026-05-20",
-  "generated_at": "2026-05-20T00:39:01.968414+08:00"
+  "generated_at": "2026-05-20T00:52:49.609241+08:00"
 }
