@@ -1,107 +1,107 @@
 {
-  "tldr_zh": "Google I/O 聚焦 AI 創新，蘋果強化 AI 輔助功能，Anthropic 迎來 OpenAI 共同創辦人，全球資安與地緣政治挑戰不斷。",
-  "tldr_en": "Google I/O highlights AI innovations, Apple boosts AI accessibility, Anthropic gains an OpenAI co-founder, while global cybersecurity and geopolitical challenges persist.",
+  "tldr_zh": "AI巨頭動向頻繁，Google I/O揭示AI未來，資安事件與國際政策亦受關注。",
+  "tldr_en": "AI giants make frequent moves, Google I/O unveils AI's future, while cybersecurity and international policies draw attention.",
   "items": [
     {
       "category": "ai",
-      "title_zh": "Google I/O 2026 大會登場，聚焦 Gemini 與 AI 代理功能",
-      "title_en": "Google I/O 2026 Kicks Off, Focusing on Gemini and AI Agent Capabilities",
-      "summary_zh": "Google 年度開發者大會 I/O 2026 今日開幕，預計將再次以 Gemini 模型為核心，展示新版 AI 模型與更多具代理能力的 AI 功能。這場盛會將揭示 Google 在基礎模型競賽中的最新進展，並可能推出多項 AI 搜尋與智慧助理創新。",
-      "summary_en": "Google's annual developer conference, I/O 2026, commences today, with expectations centered on the Gemini model, new AI models, and more agentic AI features. The event is set to reveal Google's latest advancements in the foundation model race, potentially introducing innovations in AI search and intelligent assistants.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/932454/google-io-2026-news-announcements"
-    },
-    {
-      "category": "ai",
-      "title_zh": "OpenAI 共同創辦人 Karpathy 轉投 Anthropic 預訓練團隊",
-      "title_en": "OpenAI Co-founder Andrej Karpathy Joins Anthropic's Pre-training Team",
-      "summary_zh": "OpenAI 共同創辦人 Andrej Karpathy 已加入競爭對手 Anthropic 的預訓練團隊，負責 Claude 模型的核心知識與能力訓練。此舉是 AI 領域的重大人才流動，凸顯了 Anthropic 在大型模型開發上的野心與資源投入。",
-      "summary_en": "OpenAI co-founder Andrej Karpathy has joined rival Anthropic's pre-training team, where he will be responsible for developing the core knowledge and capabilities of the Claude model. This significant talent move in the AI industry underscores Anthropic's ambition and investment in large model development.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/openai-co-founder-andrej-karpathy-joins-anthropics-pre-training-team/"
-    },
-    {
-      "category": "ai",
-      "title_zh": "蘋果強化輔助功能，整合 AI 處理提升 Vision Pro 等體驗",
-      "title_en": "Apple Enhances Accessibility Features with AI Processing for Vision Pro and More",
-      "summary_zh": "蘋果在其年度輔助功能更新中，為 iPhone、Mac 和 Vision Pro 帶來多項新功能，特別強調裝置端 AI 處理的應用。這些 AI 驅動的改進將提升 VoiceOver、放大鏡、語音控制和輔助閱讀器等功能，甚至讓 Vision Pro 能透過眼球追蹤控制輪椅。",
-      "summary_en": "Apple's annual accessibility update introduces new features for iPhone, Mac, and Vision Pro, with a strong emphasis on on-device AI processing. These AI-powered enhancements will improve functions like VoiceOver, Magnifier, Voice Control, and Accessibility Reader, and even enable Vision Pro to control a compatible wheelchair via eye-tracking.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/tech/933420/apple-iphone-mac-vision-pro-accessibility-2026-apple-intelligence"
-    },
-    {
-      "category": "ai",
-      "title_zh": "Cursor 釋出 Composer 2.5 新模型，改善程式開發表現",
-      "title_en": "Cursor Releases New Composer 2.5 Model, Enhancing Code Development",
-      "summary_zh": "程式開發代理模型 Cursor Composer 2.5 已在 IDE Cursor 中開放使用，新版模型在長時間任務處理、複雜指令遵循與協作互動方面有顯著提升。這使得模型在多步驟程式開發工作中能更好地維持任務進度，而不僅限於單次回答的優化。",
-      "summary_en": "The code development agent model, Cursor Composer 2.5, is now available in the Cursor IDE, offering significant improvements in handling long-duration tasks, following complex instructions, and collaborative interactions. This enhancement allows the model to better maintain task progress in multi-step programming workflows, beyond just optimizing single responses.",
-      "source": "iThome",
-      "url": "https://www.ithome.com.tw/news/175941"
-    },
-    {
-      "category": "ai",
-      "title_zh": "Redis 推出 AI 代理情境引擎 Iris，強化即時資料應用",
-      "title_en": "Redis Launches Iris AI Agent Context Engine, Boosting Real-time Data Applications",
-      "summary_zh": "即時資料平臺業者 Redis 推出專為 AI 代理設計的情境與記憶解決方案 Redis Iris，作為代理與企業資料之間的情境引擎。Iris 旨在讓 AI 代理在執行任務時能取得即時且可用的資料，解決傳統上依賴靜態文件或零散整合的痛點。",
-      "summary_en": "Real-time data platform provider Redis has introduced Redis Iris, a context and memory solution for AI agents, acting as a context engine between agents and enterprise data. Iris aims to provide AI agents with real-time and actionable data during task execution, addressing the limitations of relying on static documents or fragmented integrations.",
-      "source": "iThome",
-      "url": "https://www.ithome.com.tw/news/175934"
-    },
-    {
-      "category": "tech",
-      "title_zh": "美網路安全局 CISA 驚傳外洩大量密碼與雲端金鑰",
-      "title_en": "US Cyber Agency CISA Reportedly Exposed Passwords and Cloud Keys",
-      "summary_zh": "美國聯邦網路安全機構 CISA 被獨立記者揭露，將明文密碼和雲端金鑰上傳至公開的 GitHub 儲存庫，導致大量敏感資訊外洩。這起事件凸顯了即使是負責國家網路安全的機構，也可能面臨嚴重的資安管理疏失。",
-      "summary_en": "The U.S. federal cybersecurity agency CISA was reported by an independent journalist to have uploaded plaintext passwords and cloud keys to a public GitHub repository, leading to a significant leak of sensitive information. This incident highlights that even agencies responsible for national cybersecurity can face severe security management oversights.",
-      "source": "TechCrunch",
-      "url": "https://techcrunch.com/2026/05/19/us-cyber-agency-cisa-exposed-reams-of-passwords-and-cloud-keys-to-the-open-web/"
-    },
-    {
-      "category": "tech",
-      "title_zh": "美國深度偽造法案全面生效，專家憂心言論審查",
-      "title_en": "America's Deepfakes Crackdown Fully Enforced, Experts Warn of Censorship",
-      "summary_zh": "美國一項要求社群網路迅速移除性深度偽造和其他非自願圖像的法律已全面生效，但專家警告，這項政策可能對受害者幫助不大，甚至可能助長網路審查。該法案旨在打擊非自願的私密圖像，但其執行細節引發了對言論自由的擔憂。",
-      "summary_en": "A U.S. law requiring social networks to swiftly remove sexual deepfakes and other nonconsensual imagery is now fully in force, but experts warn the policy may do little to help victims and could even facilitate online censorship. While intended to combat nonconsensual intimate imagery, its implementation details raise concerns about free speech.",
-      "source": "The Verge",
-      "url": "https://www.theverge.com/policy/933518/take-it-down-act-notice-removal-social-media-deepfake"
-    },
-    {
-      "category": "tech",
-      "title_zh": "伊朗要求科技巨頭支付荷姆茲海峽海底電纜費用",
-      "title_en": "Iran Demands Big Tech Pay Fees for Undersea Internet Cables in Strait of Hormuz",
-      "summary_zh": "伊朗聲稱對荷姆茲海峽的海底網路電纜擁有管轄權，要求大型科技公司支付費用，此舉迫使美國科技公司轉向陸路光纖方案。這項要求加劇了地緣政治緊張，並可能影響全球網路基礎設施的穩定性與成本。",
-      "summary_en": "Iran is demanding that major tech companies pay fees for undersea internet cables passing through the Strait of Hormuz, asserting jurisdiction over the critical chokepoint. This move escalates geopolitical tensions and could compel U.S. tech companies to reroute to overland fiber, potentially impacting global internet infrastructure stability and costs.",
+      "title_zh": "OpenAI與NVIDIA採用Google SynthID，強化AI內容溯源",
+      "title_en": "OpenAI and NVIDIA Adopt Google's SynthID for AI Content Provenance",
+      "summary_zh": "為提升AI生成內容的透明度與信任度，OpenAI與NVIDIA宣布將採用Google開發的SynthID浮水印技術。此舉有助於辨識AI生成媒體，並打擊假訊息，是AI生態系邁向更安全的重要一步。",
+      "summary_en": "To enhance transparency and trust in AI-generated content, OpenAI and NVIDIA announced the adoption of Google's SynthID watermarking technology. This move will help identify AI-generated media and combat misinformation, marking a significant step towards a safer AI ecosystem.",
       "source": "Ars Technica",
-      "url": "https://arstechnica.com/tech-policy/2026/05/iran-demands-big-tech-pay-fees-for-undersea-internet-cables-in-strait-of-hormuz/"
+      "url": "https://arstechnica.com/google/2026/05/googles-synthid-ai-watermarking-tech-is-being-adopted-by-openai-nvidia-and-more/"
+    },
+    {
+      "category": "ai",
+      "title_zh": "前OpenAI共同創辦人Andrej Karpathy轉投Anthropic",
+      "title_en": "Former OpenAI Co-founder Andrej Karpathy Joins Anthropic",
+      "summary_zh": "知名AI研究人員Andrej Karpathy，曾為OpenAI共同創辦人，宣布加入其競爭對手Anthropic。此人才流動被視為AI領域的重大指標，可能影響未來AI技術發展方向。",
+      "summary_en": "Renowned AI researcher Andrej Karpathy, a former co-founder of OpenAI, has announced his move to competitor Anthropic. This talent migration is seen as a significant indicator in the AI field, potentially influencing the future direction of AI technology development.",
+      "source": "iThome",
+      "url": "https://www.ithome.com.tw/news/175960"
+    },
+    {
+      "category": "ai",
+      "title_zh": "Google I/O揭示AI未來：搜尋框將成萬能助理",
+      "title_en": "Google I/O Reveals AI Future: Search Box to Become All-Purpose Assistant",
+      "summary_zh": "在Google I/O大會上，Google展示了其AI驅動的未來願景，預計搜尋框將進化為能處理所有任務的萬能助理。這項策略旨在透過AI代理和更智慧的互動，徹底改變用戶與數位世界的互動方式。",
+      "summary_en": "At Google I/O, Google unveiled its AI-driven future vision, where the search box is expected to evolve into an all-purpose assistant capable of handling every task. This strategy aims to revolutionize user interaction with the digital world through AI agents and smarter engagement.",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/tech/934217/google-search-box-does-everything-ai-io-2026"
+    },
+    {
+      "category": "ai",
+      "title_zh": "Google與黑石合資成立AI基礎架構公司",
+      "title_en": "Google and Blackstone Form Joint Venture for AI Infrastructure",
+      "summary_zh": "Google與另類資產管理公司黑石宣布合資成立一家AI基礎架構公司，結合雙方的資料中心、網路及TPU資源。此舉旨在提供客戶執行AI所需的運算容量，預計將對新興運算雲業者帶來衝擊。",
+      "summary_en": "Google and alternative asset manager Blackstone announced a joint venture to establish an AI infrastructure company, combining their data center, network, and TPU resources. This initiative aims to provide clients with the computing capacity needed for AI operations, expected to impact emerging cloud computing providers.",
+      "source": "iThome",
+      "url": "https://www.ithome.com.tw/news/175959"
+    },
+    {
+      "category": "tech",
+      "title_zh": "馬斯克控告OpenAI訴訟案敗訴，法院裁定提告過晚",
+      "title_en": "Elon Musk Loses Lawsuit Against OpenAI, Court Rules Late Filing",
+      "summary_zh": "伊隆·馬斯克控告OpenAI的訴訟案，陪審團一致裁定他提告過晚，其訴求因超過訴訟時效而被駁回。此判決對馬斯克是一大打擊，也為OpenAI的發展掃清了法律障礙。",
+      "summary_en": "Elon Musk's lawsuit against OpenAI was unanimously rejected by the jury, which ruled that his claims were barred by the statute of limitations due to late filing. This verdict is a significant blow to Musk and clears legal hurdles for OpenAI's continued development.",
+      "source": "MIT Technology Review",
+      "url": "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/"
+    },
+    {
+      "category": "tech",
+      "title_zh": "GitHub內部儲存庫遭未授權存取，客戶資料暫未受影響",
+      "title_en": "GitHub Internal Repositories Accessed Without Authorization, Customer Data Unaffected",
+      "summary_zh": "GitHub證實其內部儲存庫遭到未經授權的存取，目前正在調查此資安事件。官方表示，尚無證據顯示GitHub內部儲存庫以外的客戶資訊受到影響，但事件凸顯了大型科技平台的資安挑戰。",
+      "summary_en": "GitHub confirmed unauthorized access to its internal repositories and is currently investigating the security incident. The company stated there is no evidence yet that customer information beyond internal repositories has been affected, highlighting the cybersecurity challenges faced by major tech platforms.",
+      "source": "iThome",
+      "url": "https://www.ithome.com.tw/news/175954"
+    },
+    {
+      "category": "tech",
+      "title_zh": "Discord全面啟用語音與視訊通話端對端加密",
+      "title_en": "Discord Fully Enables End-to-End Encryption for Voice and Video Calls",
+      "summary_zh": "廣受歡迎的通訊平台Discord宣布，已為所有用戶的語音和視訊通話啟用端對端加密。這項更新大幅提升了用戶通訊的隱私與安全性，確保對話內容僅限參與者可見。",
+      "summary_en": "Popular communication platform Discord announced that it has enabled end-to-end encryption for all users' voice and video calls. This update significantly enhances user communication privacy and security, ensuring that conversations are only accessible to participants.",
+      "source": "TechCrunch",
+      "url": "https://techcrunch.com/2026/05/19/discord-enables-end-to-end-encrypted-voice-and-video-calling-for-every-user/"
     },
     {
       "category": "world",
-      "title_zh": "世衛組織憂心伊波拉疫情擴散加速，剛果報告更多病例",
-      "title_en": "WHO Concerned as Ebola Outbreak Spreads Faster, More Cases Reported in Congo",
-      "summary_zh": "世界衛生組織（WHO）對中非地區伊波拉疫情的規模和速度表示擔憂，警告疫情可能比最初預期傳播得更快。剛果已報告更多病例，顯示疫情的嚴峻性，促使 WHO 宣布進入緊急狀態，並呼籲國際社會加強應對措施。",
-      "summary_en": "The World Health Organization (WHO) has expressed concern over the scale and speed of the Ebola outbreak in Central Africa, warning it may be spreading faster than initially thought. More cases have been reported in Congo, highlighting the severity of the epidemic, prompting the WHO to declare an emergency and call for stronger international response efforts.",
-      "source": "AP Top News",
-      "url": "https://apnews.com/article/congo-ebola-deadly-virus-bundibugyo-health-emergency-3c97cacf44e007127df5739199f32517"
+      "title_zh": "美FBI尋求全國車牌辨識系統，欲即時取得數據",
+      "title_en": "US FBI Seeks Nationwide License Plate Camera Access for Real-Time Data",
+      "summary_zh": "美國聯邦調查局（FBI）正尋求全國範圍內車牌辨識攝影機的存取權限，目標是從供應商處獲得近乎即時的車輛追蹤與搜尋數據。此舉引發了對公民隱私權的擔憂，可能影響科技政策與法規。",
+      "summary_en": "The U.S. Federal Bureau of Investigation (FBI) is seeking nationwide access to license plate cameras, aiming to obtain near real-time vehicle tracking and search data from vendors. This move raises concerns about civil privacy rights and could impact technology policies and regulations.",
+      "source": "Ars Technica",
+      "url": "https://arstechnica.com/tech-policy/2026/05/fbi-seeks-us-wide-access-to-license-plate-cameras-wants-data-in-near-real-time/"
     },
     {
       "category": "world",
-      "title_zh": "歐盟通過鋼品關稅大漲至50%，防堵中國廉價傾銷",
-      "title_en": "EU Approves 50% Steel Tariff Hike to Counter Cheap Chinese Imports",
-      "summary_zh": "歐洲議會以壓倒性票數通過一項提案，將進口鋼品關稅倍增至 50%，並大幅削減免關稅配額 47%，以保護歐洲鋼鐵業免受中國廉價出口品的衝擊。此舉旨在應對中國產能過剩對全球市場的影響，並維護歐洲產業的公平競爭環境。",
-      "summary_en": "The European Parliament overwhelmingly approved a proposal to double import tariffs on steel products to 50% and slash duty-free quotas by 47%, aiming to shield the struggling European steel industry from cheap Chinese exports. This measure seeks to address the impact of China's overcapacity on global markets and maintain a level playing field for European industries.",
+      "title_zh": "美參院通過決議，限制川普對伊朗開戰權力",
+      "title_en": "US Senate Passes Resolution Limiting Trump's War Powers on Iran",
+      "summary_zh": "美國聯邦參議院以跨黨派投票結果，通過一項「戰爭權力決議案」，要求總統川普在未獲國會授權下，必須結束美伊戰爭。此為國會對總統權力罕見的嚴厲制衡，凸顯兩黨對外交政策的擔憂。",
+      "summary_en": "The U.S. Senate passed a War Powers Resolution with bipartisan support, requiring President Trump to end the U.S.-Iran conflict unless authorized by Congress. This represents a rare and strong check on presidential power by Congress, highlighting bipartisan concerns over foreign policy.",
       "source": "中央社國際",
-      "url": "https://www.cna.com.tw/news/aopl/202605190395.aspx"
+      "url": "https://www.cna.com.tw/news/aopl/202605200112.aspx"
     },
     {
       "category": "world",
-      "title_zh": "路透：俄軍人在中國秘密受訓後投入烏克蘭戰場",
-      "title_en": "Reuters: Russian Soldiers Secretly Trained in China Deployed to Ukraine",
-      "summary_zh": "根據歐洲情報機構及路透社查閱的文件顯示，中國武裝部隊去年底在境內秘密訓練約 200 名俄羅斯軍事人員，其中部分人員已返回烏克蘭作戰。這項消息揭示了中俄之間更深層的軍事合作，可能對烏克蘭戰爭局勢產生影響。",
-      "summary_en": "According to European intelligence agencies and documents reviewed by Reuters, the Chinese armed forces secretly trained approximately 200 Russian military personnel in China late last year, with some already deployed to fight in Ukraine. This revelation points to deeper military cooperation between China and Russia, potentially impacting the situation in the Ukraine war.",
+      "title_zh": "川普施壓奏效，歐盟同意執行與美貿易協議",
+      "title_en": "Trump's Pressure Works, EU Agrees to Implement Trade Deal with US",
+      "summary_zh": "在美國總統川普的壓力下，歐洲議會與歐盟會員國達成共識，將執行近一年前與美國達成的貿易協議。川普曾警告，若歐盟未在7月4日前完成程序，將面臨新的關稅，此舉避免了潛在的貿易戰。",
+      "summary_en": "Under pressure from U.S. President Trump, the European Parliament and EU member states have agreed to implement a trade deal reached with the U.S. nearly a year ago. Trump had warned that the EU would face new tariffs if it failed to complete the process by July 4, a move that averted a potential trade war.",
       "source": "中央社國際",
-      "url": "https://www.cna.com.tw/news/aopl/202605190394.aspx"
+      "url": "https://www.cna.com.tw/news/aopl/202605200095.aspx"
+    },
+    {
+      "category": "world",
+      "title_zh": "韓國三星電子勞資協商破局，工會宣布全面罷工",
+      "title_en": "South Korea's Samsung Electronics Labor Talks Fail, Union Announces Full Strike",
+      "summary_zh": "韓國三星電子勞資雙方經過多日協商後確定破局，工會宣布將於明天（21日）展開全面罷工。這是三星電子史上首次全面罷工，可能對全球電子產業供應鏈造成影響。",
+      "summary_en": "Labor negotiations at South Korea's Samsung Electronics have definitively failed after several days of talks, with the union announcing a full strike starting tomorrow (May 21). This marks the first full strike in Samsung Electronics' history and could impact the global electronics supply chain.",
+      "source": "中央社國際",
+      "url": "https://www.cna.com.tw/news/aopl/202605200104.aspx"
     }
   ],
   "date": "2026-05-20",
-  "generated_at": "2026-05-20T00:52:49.609241+08:00"
+  "generated_at": "2026-05-20T13:05:46.419872+08:00"
 }
