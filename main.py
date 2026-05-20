@@ -26,7 +26,7 @@ from sources import SOURCES, MAX_ITEMS_PER_SOURCE, LOOKBACK_HOURS
 # ---------- Config ----------
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC")
-GEMINI_MODEL = "gemini-2.5-flash"  # free tier; change to gemini-2.0-flash if unavailable
+GEMINI_MODEL = "gemini-2.5-flash"
 TAIPEI_TZ = timezone(timedelta(hours=8))
 
 DOCS_DIR = Path(__file__).parent / "docs"
@@ -131,17 +131,13 @@ def save_summary(summary):
     summary["date"] = today
     summary["generated_at"] = datetime.now(TAIPEI_TZ).isoformat()
 
-    # Save dated file
     (DATA_DIR / f"{today}.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-
-    # Update latest.json
     (DATA_DIR / "latest.json").write_text(
         json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    # Update index of all dates
     dates = sorted(
         [f.stem for f in DATA_DIR.glob("*.json") if f.stem not in ("latest", "index")],
         reverse=True,
@@ -154,21 +150,49 @@ def save_summary(summary):
 
 
 # ---------- Step 4: Push notification ----------
+CATEGORY_LABEL = {
+    "ai": ("🤖 AI / 人工智慧", "🤖"),
+    "tech": ("💻 科技 Tech", "💻"),
+    "world": ("🌍 國際 World", "🌍"),
+}
+
+
 def push_notification(summary, date_str):
     if not NTFY_TOPIC:
         print("  [skip] NTFY_TOPIC not set")
         return
 
-    title = f"科技日報 {date_str}"
-    body_lines = [
+    title = f"📱 科技日報 {date_str}"
+
+    lines = [
         f"📌 {summary.get('tldr_zh', '')}",
         f"📌 {summary.get('tldr_en', '')}",
-        "",
     ]
-    for item in summary.get("items", [])[:5]:
-        body_lines.append(f"• {item.get('title_zh', '')}")
 
-    body = "\n".join(body_lines)
+    items_by_cat = {"ai": [], "tech": [], "world": []}
+    for item in summary.get("items", []):
+        cat = item.get("category", "tech")
+        if cat in items_by_cat:
+            items_by_cat[cat].append(item)
+
+    for cat in ("ai", "tech", "world"):
+        items = items_by_cat[cat]
+        if not items:
+            continue
+        section_title, icon = CATEGORY_LABEL[cat]
+        lines.append("")
+        lines.append(f"━━━ {section_title} ━━━")
+        for it in items:
+            lines.append("")
+            lines.append(f"{icon} {it.get('title_zh', '')}")
+            summary_zh = it.get("summary_zh", "").strip()
+            if summary_zh:
+                lines.append(summary_zh)
+            src = it.get("source", "")
+            if src:
+                lines.append(f"— {src}")
+
+    body = "\n".join(lines)
 
     requests.post(
         f"https://ntfy.sh/{NTFY_TOPIC}",
