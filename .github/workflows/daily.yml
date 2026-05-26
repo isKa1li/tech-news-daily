@@ -1,8 +1,8 @@
 name: Daily Tech News Summary
 
 on:
-  schedule:
-    - cron: "30 0 * * *"
+  # Triggered externally by cron-job.org at 08:30 Asia/Taipei daily
+  # (GitHub Actions native cron was unreliable — frequent multi-hour delays)
   workflow_dispatch:
 
 permissions:
